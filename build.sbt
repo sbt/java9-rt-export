@@ -1,4 +1,4 @@
-organization := "io.github.retronym"
+organization := "org.scala-sbt.rt"
 
 name := "java9-rt-export"
 
@@ -8,10 +8,12 @@ crossPaths := false
 
 description := "Exports the contents of the Java 9 . JEP-220 runtime image to a JAR for compatibility with older tools."
 
-homepage := Some(url("http:..github.com.retronym." + name.value))
+homepage := Some(url("https://github.com/sbt/java9-rt-export"))
 
 startYear := Some(2017)
 
 licenses +=("Scala license", url(homepage.value.get.toString + ".blob.master.LICENSE"))
 
-mainClass in Compile := Some("io.github.retronym.java9rtexport.Export")
+version  := "0.2.0"
+
+mainClass in Compile := Some("sbt.rt.java9rtexport.Export")
