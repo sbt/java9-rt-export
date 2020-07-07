@@ -1,4 +1,3 @@
-ThisBuild / version := "0.1.0"
 ThisBuild / organization := "org.scala-sbt.rt"
 ThisBuild / description := "Exports the contents of the Java 9 . JEP-220 runtime image to a JAR for compatibility with older tools."
 ThisBuild / homepage := Some(url("https://github.com/sbt/java9-rt-export"))
