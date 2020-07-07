@@ -8,6 +8,8 @@ crossPaths := false
 
 scalafmtOnCompile := true
 
+publishMavenStyle := true
+
 description := "Exports the contents of the Java 9 . JEP-220 runtime image to a JAR for compatibility with older tools."
 
 homepage := Some(url("https://github.com/sbt/java9-rt-export"))
